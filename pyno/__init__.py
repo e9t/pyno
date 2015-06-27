@@ -7,6 +7,8 @@ import os
 
 from pync import Notifier
 
-curfile = os.path.abspath(inspect.getfile(inspect.stack()[-1][0]))
-notify = lambda: Notifier.notify('Check %s.' % curfile, title='pyno')
-atexit.register(notify)
+stack = inspect.stack()
+if 'ipython' not in stack[-1][1]:
+    curfile = os.path.abspath(inspect.getfile(stack[-1][0]))
+    notify = lambda: Notifier.notify('Check %s.' % curfile, title='pyno')
+    atexit.register(notify)
