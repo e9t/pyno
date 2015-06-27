@@ -18,7 +18,7 @@ setup(
     url = "http://github.com/e9t/pyno",
     packages=['pyno'],
     long_description=read('README.md'),
-    install_requires = ['pync>=1.6.1'],
+    install_requires = ['pync>=1.6.0'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
