@@ -11,6 +11,8 @@ Python notifications for Mac OS.
 
     pip install git+https://github.com/e9t/pyno.git
 
+> WARNING: Those using tmux [may have some issues](https://github.com/SeTeM/pync/issues/22). Installing [my version of pync](https://github.com/e9t/pync) might solve the issue.
+
 ## Usage
 
 `import pyno` (desirably) at beginning of script.
