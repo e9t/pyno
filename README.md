@@ -16,3 +16,9 @@ Python notifications for Mac OS.
 ## Usage
 
 `import pyno` (desirably) at beginning of script.
+
+## Limitations
+
+Works only for local + mac + Python + terminal users.
+
+> UPDATE 2015-09-22: I use [slacker](https://github.com/os/slacker) these days, which alleviates all the limitations above.
